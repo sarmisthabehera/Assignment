@@ -1,4 +1,4 @@
-package assignment5_june_16
+package com.example.lifecycleassignment
 
 import android.os.Bundle
 import android.util.Log
@@ -6,11 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    private val TAG = "MainActivity"
+    private val TAG = "LifecycleEvents"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(android.R.layout.simple_list_item_1)  // Built-in layout for quick setup
+        setContentView(android.R.layout.simple_list_item_1) // basic layout
         Log.d(TAG, "onCreate called")
     }
 
